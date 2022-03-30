@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <h1>Sign up</h1>
+    <p>Please fill in this form to create an account!</p>
+    <form action="http://httpbin.org/post" method="post">
+        <div>
+            <fieldset style="width: 640px;">
+                <div>
+                    <label for="firstname">First Name *</label>
+                    <input type="text" id="first_name" name="firstname" minlength="3" maxlength="35" required
+                        tabindex="1" autofocus size="16">
+                    <label for="lastname">Last Name *</label>
+                    <input type="text" id="last_name" name="lastname" minlength="3" maxlength="35" tabindex="6"
+                        required>
+                    <br><br>
+                </div>
+                <div>
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" tabindex="2" required size="26">
+                    <label for="phone_number">Phone Number</label>
+                    <input type="tel" id="phone_number" name="phone_number" pattern="[0]{1}[0-9]{8}" tabindex="5">
+                    <br><br>
+                </div>
+                <div>
+                    <label for="password">Password *</label>
+                    <input type="password" id="password" name="password" tabindex="3" size="26" required
+                        pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
+                    <label for="confirm_pass">Confirm Password *</label>
+                    <input type="password" id="confirm_pass" name="confirm_pass" tabindex="4" required
+                        pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
+                </div>
+            </fieldset>
+        </div>
+        <div>
+            <br>
+            <button type="submit">Create account</button>
+        </div>
+    </form>
+    <p>Already have an account? <a href="https://casinodays.com">Log in</a></p>
+</body>
+</html>
