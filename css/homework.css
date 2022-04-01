@@ -1,0 +1,39 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+th {
+    background-color: #700ff7;
+    color: white;
+    text-align: left;
+    padding: 0.75rem 0.5rem;
+    font-size: 14px;
+    font-weight: 500;
+    border-collapse: collapse;
+    border: 1px solid;
+}
+
+#homework {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid;
+}
+
+  td {
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0.25rem 0.5rem;
+    font-weight: 300;
+    border-collapse: collapse;
+    border: 1px solid;
+  }
+
+  tr:nth-child(2n) {
+    background-color: #ddd;
+  }
+
+  tr:hover {
+      background-color: #ddd;
+  }
+
+  
