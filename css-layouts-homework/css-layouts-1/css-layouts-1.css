@@ -1,0 +1,275 @@
+
+
+.js {
+    border: 1px solid;
+    border-color: #64d8cb;
+    padding: 0.5rem; 
+    grid-row: 1 / span 2;
+    grid-column: 1 / 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.typescript {
+    border: 1px solid;
+    border-color: #00766c;
+    padding: 0.5rem;  
+    display: flex;
+    flex-direction: column;
+}
+
+.node {
+    border: 1px solid;
+    border-color: #00766c;
+    padding: 0.5rem; 
+    display: flex;
+    flex-direction: column;
+}
+
+.html-css {
+    border: 1px solid;
+    border-color: #00766c;
+    padding: 0.5rem; 
+    display: flex;
+    flex-direction: column;
+}
+
+.python {
+    border: 1px solid;
+    border-color: #00766c;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column; 
+}
+
+.java {
+    border: 1px solid;
+    border-color: #00766c;
+    padding: 0.5rem; 
+    display: flex;
+    flex-direction: column;
+}
+
+.docker {
+    border: 1px solid;
+    border-color: #00766c;
+    padding: 0.5rem; 
+    display: flex;
+    flex-direction: column;
+}
+
+.c-sharp {
+    border: 1px solid;
+    border-color: #00766c;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column; 
+}
+
+.js img {
+    width: 75px;
+    height: 75px;
+}
+
+.js button {
+   display: block;
+   width: 100%;
+   margin-top: 1rem;
+   
+}
+
+.js p {
+    margin: 0;
+    text-align: justify;
+    padding: 0 1rem 0 0.5rem;
+}
+
+.js-1 {
+    display: flex;
+}
+
+.node img {
+    width: 75px;
+    height: 75px;
+}
+
+.node button {
+   display: block;
+   width: 100%;
+   margin-top: 1rem;
+}
+
+.node p {
+    margin: 0;
+    text-align: justify;
+    padding: 0 1rem 0 0.5rem;
+}
+
+.node-1 {
+    display: flex;
+}
+
+.html-css img {
+    width: 75px;
+    height: 75px;
+}
+
+.html-css button {
+   display: block;
+   width: 100%;
+   margin-top: 1rem;
+}
+
+.html-css p {
+    margin: 0;
+    text-align: justify;
+    padding: 0 1rem 0 0.5rem;
+}
+
+.h-c-1 {
+    display: flex;
+}
+
+.typescript img {
+    width: 75px;
+    height: 75px;
+}
+
+.typescript button {
+   display: block;
+   width: 100%;
+   margin-top: 1rem;
+}
+
+.typescript p {
+    margin: 0;
+    text-align: justify;
+    padding: 0 1rem 0 0.5rem;
+}
+
+.type-1 {
+    display: flex;
+}
+
+.python img {
+    width: 75px;
+    height: 75px;
+}
+
+.python button {
+   display: block;
+   width: 100%;
+   margin-top: 1rem;
+}
+
+.python p {
+    margin: 0;
+    text-align: justify;
+    padding: 0 1rem 0 0.5rem;
+}
+
+.python-1 {
+    display: flex;
+}
+
+.c-sharp img {
+    width: 75px;
+    height: 75px;
+}
+
+.c-sharp button {
+   display: block;
+   width: 100%;
+   margin-top: 1rem;
+}
+
+.c-sharp p {
+    margin: 0;
+    text-align: justify;
+    padding: 0 1rem 0 0.5rem;
+}
+
+.c-1 {
+    display: flex;
+}
+
+.java img {
+    width: 75px;
+    height: 75px;
+}
+
+.java button {
+   display: block;
+   width: 100%;
+   margin-top: 1rem;
+}
+
+.java p {
+    margin: 0;
+    text-align: justify;
+    padding: 0 1rem 0 0.5rem;
+}
+
+.java-1 {
+    display: flex;
+}
+
+.docker img {
+    width: 75px;
+    height: 75px;
+}
+
+.docker button {
+   display: block;
+   width: 100%;
+   margin-top: 1rem;
+}
+
+.docker p {
+    margin: 0;
+    text-align: justify;
+    padding: 0 1rem 0 0.5rem;
+}
+
+.docker-1 {
+    display: flex;
+}
+
+.grid-container {
+    display: grid;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.js-buttons {
+    margin-top: auto;
+}
+
+.node-buttons {
+    margin-top: auto;
+}
+
+.h-buttons {
+    margin-top: auto;
+}
+
+.type-buttons {
+    margin-top: auto;
+}
+
+.python-buttons {
+    margin-top: auto;
+}
+
+.c-buttons {
+    margin-top: auto;
+}
+
+.java-buttons {
+    margin-top: auto;
+}
+
+.docker-buttons {
+    margin-top: auto;
+}
