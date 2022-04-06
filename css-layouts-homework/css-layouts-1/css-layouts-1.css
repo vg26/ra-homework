@@ -273,3 +273,19 @@
 .docker-buttons {
     margin-top: auto;
 }
+
+.terms {
+    bottom: 1rem;
+    position: fixed;
+    background-color: rgb(62, 86, 159);
+    padding: 1rem;
+    border-radius: 8px;
+    left: 50%;
+    transform: translate(-50%, 0);   
+}
+
+.terms span {
+    padding: 0 4rem 0 0;
+    color: white;
+    font-weight: 600;
+}
