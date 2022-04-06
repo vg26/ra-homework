@@ -82,3 +82,49 @@ footer a {
     color: white;
     text-decoration: none;
 }
+
+@media (max-width: 768px) {
+    section {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        align-items: center;
+    }
+}
+
+header img {
+    width: 75px;
+    height: 75px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+@media (min-width: 992px) {
+    p {
+        font-size: 20px;
+    }
+}
+
+@media (orientation: landscape) {
+    p {
+        font-size: 18px;
+        background-color: lightblue;
+    }
+}
+
+@media (min-width:768px) {
+    .img1 {
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    .img2 {
+        display: none;
+    }
+}
