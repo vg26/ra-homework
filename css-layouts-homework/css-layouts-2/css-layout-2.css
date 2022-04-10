@@ -3,6 +3,15 @@ body {
     margin: 0;
     background-color: #F5F5F6;
     font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
 }
 
 header {
