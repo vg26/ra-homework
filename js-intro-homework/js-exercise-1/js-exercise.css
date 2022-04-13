@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    margin: 0 4rem 0 4rem;
+    font-size: 24px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin: 1rem; 
+    width: 15%;  
+}
