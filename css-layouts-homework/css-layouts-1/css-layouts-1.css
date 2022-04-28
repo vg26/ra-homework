@@ -59,3 +59,29 @@
     color: white;
     font-weight: 600;
 }
+
+@media (max-width: 768px) {
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+    .terms {
+        width: 80%;
+    }
+    button {
+        background-color: lightblue;
+    }
+}
+
+@media (max-width: 600px) {
+    img {
+        display: none;
+    }
+}
+
+@media (min-width: 600px) {
+    .js p {
+        color: blue;
+    }
+}
